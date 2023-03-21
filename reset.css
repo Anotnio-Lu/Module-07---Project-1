@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather:ital,wght@1,300&family=Raleway:ital,wght@1,100&display=swap');
+
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+main {
+    display: block;
+  }
+
+body{
+    margin:0;
+    font-family: 'Gloock', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.header{
+    padding: 60px;
+    text-align: center;
+    background: var();
+    color: var();
+    font-size: 30px;
+}
+
+.form{
+    padding:70px;
+    background-color: var();
+    color:var();
+}
+
+.form-input{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    outline: none;
+    color: var();
+    background-color: var();
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: var();
+  }
+
+  .footer{
+    margin:0;
+    padding:50px;
+    width: 100%;
+    background-color: var();
+    color: var();
+  }
+
+  .displayflex{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.aligncentertext{
+    text-align: center;
+    width: 100%;
+}
+
+.aligncenteritem{
+    align-items: center;
+    width: 100%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .flex-no-wrap {
+    flex-wrap: nowrap;
+  }
+  
+  .justify-space-between {
+    justify-content: space-between;
+  }
+  
+  .justify-space-around {
+    justify-content: space-around;
+  }
+  
+  .justify-flex-start {
+    justify-content: flex-start;
+  }
+  
+  .justify-flex-end {
+    justify-content: flex-end;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .align-start {
+    align-items: flex-start;
+  }
+  
+  .align-stretch {
+    align-items: stretch;
+  }
+  
+  .align-end {
+    align-items: flex-end;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .align-content-start {
+    align-content: flex-start;
+  }
+  
+  .align-content-stretch {
+    align-content: stretch;
+  }
+  
+  .align-content-end {
+    align-content: flex-end;
+  }
+  
+  .align-content-center {
+    align-content: center;
+  }
+  
+
+  
+  @media screen {
+    
+  }
