@@ -1,8 +1,11 @@
 :root{
+    --dteal: #0E8388;
     --teal: #00ABB3;
+    --lteal: #CBE4DE;
     --black: #000;
     --dgrey: #3C4048;
     --mgrey: #B2B2B2;
     --lgrey: #EAEAEA;
     --white: #ffffff;
 }
+
