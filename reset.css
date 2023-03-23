@@ -41,6 +41,35 @@ p{
     margin: 10px 0;
 }
 
+/* Added container class */
+.container {
+  display:flex;
+  flex-direction: row;
+  font-size: 30px;
+  margin: 10px;
+  color: var(--white);
+  background-color: var(--mgrey);
+}
+
+/* Added .container-results */
+.container-results {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Added .container-maps */
+.container-maps {
+  padding-left: 15px;
+}
+
+/* Added .item */
+.item {
+  flex-direction: row;
+  border-bottom: solid;
+  font-size: 30px;
+}
+
 .btn {
     text-align: center;
     display: inline-block;
