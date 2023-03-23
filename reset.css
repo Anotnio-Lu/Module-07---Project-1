@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather:ital,wght@1,300&family=Raleway:ital,wght@1,100&display=swap');
 
-
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -12,22 +11,28 @@ main {
 
 body{
     margin:0;
-    font-family: 'Gloock', serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header{
     padding: 60px;
     text-align: center;
-    background: var();
-    color: var();
+    background: var(--teal);
+    color: var(--lgrey);
     font-size: 30px;
+}
+h1{
+  font-size: 60px;
+}
+
+p{
+  font-size: 40px;
+  color: var(--dgrey);
 }
 
 .form{
     padding:70px;
-    background-color: var();
+    background-color: var(--lgrey);
     color:var();
 }
 
@@ -75,21 +80,28 @@ body{
     border-radius: 3px;
     border: 1px solid transparent;
     outline: none;
-    color: var();
-    background-color: var();
+    color: var(--lgrey);
+    background-color: var(--teal);
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   }
 
   .btn:hover {
-    background-color: var();
+    background-color: var(--dteal);
   }
 
   .footer{
     margin:0;
     padding:50px;
     width: 100%;
-    background-color: var();
-    color: var();
+    background-color: var(--dteal);
+    color: var(--lgrey);
+  }
+  .h-500px{
+    height: 500px
+  }
+
+  .w-100{
+    width:100%
   }
 
   .displayflex{
