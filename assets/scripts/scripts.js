@@ -1,0 +1,1 @@
+var btnSearchVin = document.getElementById("search-vin");
