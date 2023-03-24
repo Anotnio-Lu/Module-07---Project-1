@@ -5,15 +5,18 @@ var entryForm = document.getElementById("entry_form");
 var inputVin = document.getElementById("vin-input");
 var searchOutput = document.getElementById("search-output");
 
+const historySearch = [];
+var searchTime = dayjs().format('D.MMMM.YY[,]H[:]mm');
 
 var getCarDetails = function(event){
     event.preventDefault();
+    clearSearch();
     var record = 0;
 
     for (var i=0; i < vinTyreArr.length; i++){
         var carVin = inputVin.value.trim();
         var recordVin = vinTyreArr[i].vin;
-
+        console.log(carVin);
         
         if (carVin === recordVin){
             var tyreDetails = vinTyreArr[i].tyre_measure;
@@ -21,6 +24,8 @@ var getCarDetails = function(event){
             var h3Output = document.createElement('h3');
             h3Output.textContent = "Your tyre search fit : " + tyreDetails;
             searchOutput.appendChild(h3Output);
+            localStorage.setItem(("input at "+searchTime), JSON.stringify(carVin).toLowerCase());
+            //historySearch.push(searchTime, carVin);
         }
     }
         noRecord(record);
