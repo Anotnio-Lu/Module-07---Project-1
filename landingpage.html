@@ -7,24 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RepairFind Landing Page</title>
-    <link rel="stylesheet" href=".assets/style/reset.css" />
-    <link rel="stylesheet" href=".assets/style/style.css" />
+  <!--  <link rel="stylesheet" href=".assets/style/reset.css" />
+    <link rel="stylesheet" href=".assets/style/style.css" /> -->
 </head>
 
 <body>
     <!-- Header -->
     <div class="header align-center justify-center w-100">
-        <h1>Your car information are listed below.</h1>
+        <h1 id = "search-output">Your car information are listed below.</h1>
     </div>
     <!-- Search bar -->
     <div>
     <div class="form display-flex flex-column h-500px">
-        <form>
+        <form id="entry_form">
             <input id="vin-input" class="form-input aligncentertext" type="text" placeholder="17 characters vin">
             <button class="btn aligncenteritem" id = "search-vin" style="margin-top: 10px;">Search</button>
         </form>
          <!-- History section -->
-         <button class="btn" id="clear-history">Clear history</button>
+         <button class="btn" id="clear-search">Clear search</button>
          <ul class="list-group">
          </ul>
     </div>
@@ -41,7 +41,8 @@
         RepairFind &copy 2023
         Creatively made by BASA: Briony, Anna, Steven and Antonio
     </div>
-<script src = "assets/scripts/scripts.js"></script>    
+<script src = "assets/scripts/scripts.js"></script>  
+<script src = "assets/scripts/test_vin_tyre_ar.js"></script>    
 </body>
 
 </html>
