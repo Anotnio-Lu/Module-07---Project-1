@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RepairFind Landing Page</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./skeleton.css" />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
 </head>
@@ -16,31 +18,37 @@
     <div class="header align-center justify-center w-100">
         <h1>Your car information are listed below.</h1>
     </div>
-    <!-- Search bar -->
-    <div>
-    <div class="form display-flex flex-column h-500px">
-        <form>
-            <input id="vin-input" class="form-input aligncentertext" type="text" placeholder="17 characters vin">
-            <button class="btn aligncenteritem" style="margin-top: 10px;">Search</button>
-        </form>
-         <!-- History section -->
-         <button class="btn" id="clear-history">Clear history</button>
-         <ul class="list-group">
-         </ul>
-    </div>
-    <div class="info">   
-        <p class="display-flex aligncenteritem aligncentertext"> car information display </p>
-    </div>
-</div>
 
-<div>
-    <p class="display-flex aligncenteritem aligncentertext">Google map placement</p>
-</div>
-    
-    <div class="footer aligncentertext">
-        RepairFind &copy 2023
-        Made By Anna Art, Steven Dong, Antonio Lu, Briony Sherrell
-    </div>
+    <!-- Search bar -->
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <div class="form display-flex flex-column h-500px">
+                    <form>
+                        <input id="vin-input" class="form-input aligncentertext" type="text"
+                            placeholder="17 characters vin">
+                        <button class="btn aligncenteritem" style="margin-top: 10px;">Search</button>
+                    </form>
+                    <!-- History section -->
+                    <button class="btn" id="clear-history">Clear history</button>
+                    <ul class="list-group">
+                    </ul>
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="info">
+                    <p class="display-flex aligncenteritem aligncentertext"> car information display </p>
+                </div>
+                <div>
+                    <p class="display-flex aligncenteritem aligncentertext">Google map placement</p>
+                </div>
+                </div>
+                </div>
+
+                <div class="footer aligncentertext">
+                    RepairFind &copy 2023
+                    Made By Anna Art, Steven Dong, Antonio Lu, Briony Sherrell
+                </div>
 </body>
 
 </html>

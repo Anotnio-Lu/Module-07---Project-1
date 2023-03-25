@@ -21,9 +21,6 @@ body, input, button{
     color: var(--lgrey);
     font-size: 30px;
 }
-h1{
-  font-size: 60px;
-}
 
 p{
   font-size: 40px;
@@ -46,22 +43,7 @@ p{
   color: var(--dgrey);
   padding: 70px;
 }
-/* Added container class */
-.container {
-  display:flex;
-  flex-direction: row;
-  font-size: 30px;
-  margin: 10px;
-  color: var(--white);
-  background-color: var(--mgrey);
-}
 
-
-
-/* Added .container-maps */
-.container-maps {
-  padding-left: 15px;
-}
 
 /* Added .item */
 .item {
