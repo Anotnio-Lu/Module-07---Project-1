@@ -12,12 +12,18 @@ var getCarDetails = function(event){
     event.preventDefault();
     clearSearch();
     var record = 0;
+    var carVin = inputVin.value.trim();
+    var length = carVin.length;
+    
+    if (length > 17){
+        var par = document.createElement('p');
+            par.textContent = "Please enter seventeen digits for your VIN."
+            searchOutput.appendChild(par)
+        return};
 
     for (var i=0; i < vinTyreArr.length; i++){
-        var carVin = inputVin.value.trim();
-        var recordVin = vinTyreArr[i].vin;
-        console.log(carVin);
         
+        var recordVin = vinTyreArr[i].vin;
         if (carVin === recordVin){
             var tyreDetails = vinTyreArr[i].tyre_measure;
             record = 1;
@@ -32,6 +38,8 @@ var getCarDetails = function(event){
         return
 };
 
+
+
 function noRecord(record){
         if (record === 0){
             var par = document.createElement('p');
@@ -39,6 +47,8 @@ function noRecord(record){
             searchOutput.appendChild(par);
         }
 };
+
+
 
 function clearSearch(){
             searchOutput.textContent = " "
