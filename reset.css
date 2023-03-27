@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather:ital,wght@1,300&family=Raleway:ital,wght@1,100&display=swap');
 
+
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -50,6 +51,18 @@ p{
   flex-direction: row;
   border-bottom: solid;
   font-size: 30px;
+}
+
+.container {
+  max-width: 85%;
+}
+
+.box {
+  display: flex;
+}
+
+#image {
+  padding-right: 30px;
 }
 
 .btn {
@@ -178,6 +191,8 @@ p{
   .content-form     { @include column('third'); }
   .content-articles { @include column('twothirds'); }
   
-  @media screen {
-    
-  }
+  @media screen and (max-width: px){
+    .box {
+       flex-direction: column;
+    }
+ }
