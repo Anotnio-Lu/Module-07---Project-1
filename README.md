@@ -4,10 +4,27 @@
 RepairFind is a live web application designed to help motorists streamline the process to find mechanical assistance.
 
 ## Table of Contents
+- [User Story](#user-story)
+- [Acceptance criteria](#acceptance-criteria)
+- [Features](#features)
 - [Technologies](#technologies)
 - [Usage](#usage)
+- [Development](#development)
 - [Credits](#credits)
 - [License](#license)
+
+## User Story
+As a car owner, I want to be able to provide my accurate car information to mechanics drawn from my VIN, and know what local mechanics are available to me, in any given area. 
+
+## Acceptance Criteria
+- WHEN I go to the homepage, there is a search bar that allows me to put in the Vehicle Identification Number (VIN) of my car.
+- THEN I click the search button, it directs me to another page displaying the primary information of my car: make, model, and year.
+- WHEN I view the landing page
+- THEN I can see a map that shows me local mechanics and my search history
+- WHEN I inspect local storage
+- THEN I see my search history has been saved
+- WHEN I click a button to clear history
+- THEN my local storage is cleared
 
 ## Features
 
@@ -15,7 +32,7 @@ RepairFind is a live web application designed to help motorists streamline the p
 - Display your nearest mechanic in Google Maps.
 - Save your search history locally for quick reference. 
 
-## Tech
+## Technologies
 
 RepairFind uses a number of technologies, including:
 
