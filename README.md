@@ -9,6 +9,11 @@ RepairFind is a live web application designed to help motorists streamline the p
 - [Credits](#credits)
 - [License](#license)
 
+## User Story 
+
+
+## Acceptance Criteria
+
 ## Features
 
 - Populate your vehicles primary information by using your vin number. 
@@ -41,8 +46,8 @@ If the user navigates directly to the landing page, they are presented with a se
 
 ![RepairFind Landing Page](images/readmeLandingPageDefault.png)
 
+From the landing page, users are able to view their search history, which is preserved using local storage. Users are able to clear their search history by clicking the "clear history" button. 
 
-- loacl search preserves search history
 
 ## Development
 
@@ -59,6 +64,8 @@ Parts Navigator: https://partsnavigator.com.au/
 Dillinger.io: live markdown editor
 
 https://dillinger.io/
+
+day.js
 
 
 ## License
