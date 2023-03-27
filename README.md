@@ -41,8 +41,8 @@ If the user navigates directly to the landing page, they are presented with a se
 
 ![RepairFind Landing Page](images/readmeLandingPageDefault.png)
 
+From the landing page, users are able to view their search history, which is preserved using local storage. Users are able to clear their search history by clicking the "clear history" button. 
 
-- loacl search preserves search history
 
 ## Development
 
