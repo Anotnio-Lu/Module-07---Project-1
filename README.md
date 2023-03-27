@@ -19,10 +19,19 @@ As a car owner, I want to be able to provide my accurate car information to mech
 ## Acceptance Criteria
 - WHEN I go to the homepage, there is a search bar that allows me to put in the Vehicle Identification Number (VIN) of my car.
 - THEN I click the search button, it directs me to another page displaying the primary information of my car: make, model, and year.
+- WHEN I click "clear input"
+- THEN the input box is cleared of text
 - WHEN I view the landing page
-- THEN I can see a map that shows me local mechanics and my search history
-- WHEN I inspect local storage
+- THEN I am presented with my current location marked with a red pin labelled "A"
+- THEN I see a green circle with a 5km radius
+- THEN I see a orange circle with a 10km radius
+- THEN I see my nearest car repair marked with a red pin
+- WHEN I click on the car repair pin marks
+- THEN I am presented with a window that displays the name of the business, the address, the phone number, and the customer rating
+- WHEN I inspect the landing page further
 - THEN I see my search history has been saved
+- WHEN I inspect local storage
+- THEN I see my search history has been saved locally
 - WHEN I click a button to clear history
 - THEN my local storage is cleared
 
