@@ -18,7 +18,7 @@ As a car owner, I want to be able to provide my accurate car information to mech
 
 ## Acceptance Criteria
 - WHEN I go to the homepage, there is a search bar that allows me to put in the Vehicle Identification Number (VIN) of my car.
-- THEN I click the search button, it directs me to another page displaying the primary information of my car: make, model, and year.
+- THEN I click the search button, it directs me to the landing page displaying the primary information of my car: make, model, and year.
 - WHEN I click "clear input"
 - THEN the input box is cleared of text
 - WHEN I view the landing page
