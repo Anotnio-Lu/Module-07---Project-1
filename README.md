@@ -30,10 +30,18 @@ RepairFind uses a number of technologies, including:
 More information and links to external technologies can be found in our "Credits" section. 
 
 ## Usage
-- User inputs vin numbr into the search input box
-    - returns vehicle make / model / year
-- user opts to allow location accessability
-    - user is presented with google map view of local mechanics and maintenance shops
+
+On opening the RepairFind Homepage, users are presented with an input box, a search button, and simple directions on where they can find their vin number. 
+
+![RepairFind Homepage](images/readmeHomePage.png)
+
+Once the user inputs their vin number, they are redirected to the landing page. The user is presented with their vehicles make, model, and year, and (if the user has allowed location services) mechanics located within a variety or radii from their current location. 
+
+If the user navigates directly to the landing page, they are presented with a search input box, and placeholders for each of the search results and Google Maps results. The user is able to use the search function from the landing page. 
+
+![RepairFind Landing Page](images/readmeLandingPageDefault.png)
+
+
 - loacl search preserves search history
 
 ## Development
