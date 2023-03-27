@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RepairFind Homepage</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./skeleton.css" />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
 </head>
@@ -16,30 +18,36 @@
         <h1>RepairFind</h1>
         <p>Find your nearest repair shops within seconds.</p>
     </div>
-    <div>
+    <div class="container align-center">
         <form class="form display-flex flex-column h-400px">
             <input id="vin-input" class="form-input aligncentertext" type="text" placeholder="17 characters vin">
             <button class="btn aligncenteritem" id="search-btn" style="margin-top: 10px;">Search</button>
         </form>
     </div>
-    <div class="box">
-        <div>
-            <img src="images/vinLocator.png" alt="diagram of a car showing possible locations of vehicle identification numbers" id="image">
+    <div class="container">
+        <div class="row display-flex">
+            <div class="six columns">
+                <img src="images/vinLocator.png"
+                    alt="diagram of a car showing possible locations of vehicle identification numbers" id="image">
+            </div>
             <!--image from https://partsnavigator.com.au/ sourced 23rd March 2023-->
-        </div>
-        <div>
-            <p><strong>Where can I find my vehicles vin?</strong></p>
-            <p>1. Your drivers side dash where it meets the windshield, 
-                <br>2. The drivers side door pillar, 
-                <br>3. The front of the engine block, 
-                <br>4. The front end of the vehicles frame. 
-                <br>5. Your vin will also be listed on your registration documents, and if you are in NSW, you can find it in your Service NSW account under "registrations".</p>
-                <!--information from https://www.gio.com.au/faqs/car-insurance/how-do-i-find-my-vin.html sourced 23rd March 2023-->
+            <div class="six columns">
+                <ul><strong>Where can I find my vehicles vin?</strong>
+                    <li>Your drivers side dash where it meets the windshield.</li>
+                    <li>The drivers side door pillar.</li>
+                    <li>The front of the engine block.</li>
+                    <li>The front end of the vehicles frame.</li>
+                    <li>Your vin is also listed on your registration documents, you can find
+                        it in your Service NSW account under "registrations" (NSW user).</li>
+                </ul>
+            </div>
+            <!--information from https://www.gio.com.au/faqs/car-insurance/how-do-i-find-my-vin.html sourced 23rd March 2023-->
         </div>
     </div>
     <div class="footer aligncentertext">
-       RepairFind &copy 2023
+        RepairFind &copy 2023
         Made By Anna Art, Steven Dong, Antonio Lu, Briony Sherrell
-        </div>
+    </div>
 </body>
+
 </html>
