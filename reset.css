@@ -53,6 +53,7 @@ p{
   font-size: 30px;
 }
 
+/* added .container */
 .container {
   max-width: 85%;
 }
@@ -206,7 +207,7 @@ p{
   .content-form     { @include column('third'); }
   .content-articles { @include column('twothirds'); }
   
-  @media screen and (max-width: px){
+  @media screen and (max-width: 1100px){
     .box {
        flex-direction: column;
     }
