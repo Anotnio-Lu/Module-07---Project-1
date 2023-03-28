@@ -1,3 +1,4 @@
+
 var btnClearSearch = document.getElementById("clear-search-btn");
 var inputVin = document.getElementById("vin-input");
 var inputContainer = $('#vin-form')
@@ -273,3 +274,4 @@ document.head.appendChild(script);
 
 print(vinNumber)
 populateList()
+

@@ -14,6 +14,10 @@ body, input, button{
     font-family: 'Raleway', sans-serif;
 }
 
+.fontbold{
+  font-weight: bold;
+}
+
 .header{
     padding: 60px;
     text-align: center;
@@ -68,9 +72,6 @@ p{
   max-width: 85%;
 }
 
-td {
-  
-}
 
 #go-back {
   text-align: center;
