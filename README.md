@@ -50,8 +50,9 @@ RepairFind uses a number of technologies, including:
 - CSS
 - Skeleton CSS boilerplate
 - Jquery
-- Google Maps API
-- VIN API
+- Google Maps JavaScript API
+- Places Library (for Maps JavaScript API)
+- VIN Free Check, Instant VIN decorder API
 
 More information and links to external technologies can be found in our "Credits" section. 
 
@@ -77,6 +78,14 @@ RepairFind was developed by Team 7, as a joint effort. Antonio Liu and Anna Art 
 ## Credits
 
 Skeleton: A dead simple, responsive boilerplate. http://getskeleton.com/
+
+Maps JavaScript API: https://developers.google.com/maps/documentation/javascript
+
+Places Library for Maps JavaScript API: https://developers.google.com/maps/documentation/javascript/places
+
+VIN Free Check, Instant VIN decorder API: https://www.vinfreecheck.com/vin-decoding-api
+
+Rapid API: used to source VIN decoder API, https://rapidapi.com/vinfreecheck/api/vin-decoder-1/details
 
 GIO Insurance, How do I find my vin? https://www.gio.com.au/faqs/car-insurance/how-do-i-find-my-vin.html
 
