@@ -93,13 +93,14 @@ function populateList() {
     })
 }
 
+//Example VIN: 1hgcm82633a004352
 
 // copy paste snippet from rapidAPI
 const options = {
 	method: 'GET',
 	headers: {
-
-		'X-RapidAPI-Key': '9a598bf9b8msh2cbffe6ff55df67p1a0c32jsn9ad7b4fd3064',
+  //Rapid API Key below - please only use this twice each to test, remove the forward slashes (//) to make the line live to test.
+	//'X-RapidAPI-Key': 'd6a90ad397msh3391469c5c359a2p13e7c1jsn9ade20db1714',
 		'X-RapidAPI-Host': 'vindecoder.p.rapidapi.com'
 	}
 };
@@ -209,7 +210,7 @@ navigator.geolocation.getCurrentPosition(position => {
   const service = new google.maps.places.PlacesService(map);
   service.textSearch({ 
 
-    query: 'bicycle_store', 
+    query: 'car_repair', 
 
     location: map.getCenter(), 
     radius: 500 
