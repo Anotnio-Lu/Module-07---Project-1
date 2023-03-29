@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 
 var btnClearSearch = document.getElementById("clear-search-btn");
 var inputVin = document.getElementById("vin-input");
@@ -279,4 +278,4 @@ document.head.appendChild(script);
 print(vinNumber)
 populateList()
 
->>>>>>> Stashed changes
+
