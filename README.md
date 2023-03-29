@@ -64,6 +64,16 @@ On opening the RepairFind Homepage, users are presented with an input box, a sea
 
 Once the user inputs their vin number, they are redirected to the landing page. The user is presented with their vehicles make, model, and year, and (if the user has allowed location services) mechanics located within a variety or radii from their current location. 
 
+![RepairFind map VIN search results page](images/landingPageCarInfoResults.png)
+
+The Google Maps window can be zoomed in on for greater detail.
+
+![Google Maps location results](images/landingPageMapResult1.png)
+
+Individual pins can be clicked on to find business inforamtion. 
+
+![Google Maps business details](images/landingPageMapDetails.png)
+
 If the user navigates directly to the landing page, they are presented with a search input box, and placeholders for each of the search results and Google Maps results. The user is able to use the search function from the landing page. 
 
 ![RepairFind Landing Page](images/readmeLandingPageDefault1.png)
@@ -71,9 +81,16 @@ If the user navigates directly to the landing page, they are presented with a se
 From the landing page, users are able to view their search history, which is preserved using local storage. Users are able to clear their search history by clicking the "clear history" button. 
 
 
+
 ## Development
 
+### Test our application
+
+To test our application, use this example VIN: 1HGCM82633A004352.
+
 RepairFind was developed by Team 7, as a joint effort. Antonio Liu and Anna Art provided the JavaScript, API functionality, and local storage capabilities. Steven Dong and Briony Sherrell designed the website, ensured all technologies were incorporated into the HTML, and provided the READ.ME file. 
+
+
 
 ## Credits
 
@@ -100,5 +117,5 @@ day.js
 
 ## License
 
-None Applicable
+None Applicable. For license inforamtion relating to Google Maps JavaScript API and VIN Free API, please visit those providers directly. 
 
