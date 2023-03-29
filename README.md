@@ -18,11 +18,20 @@ As a car owner, I want to be able to provide my accurate car information to mech
 
 ## Acceptance Criteria
 - WHEN I go to the homepage, there is a search bar that allows me to put in the Vehicle Identification Number (VIN) of my car.
-- THEN I click the search button, it directs me to another page displaying the primary information of my car: make, model, and year.
+- THEN I click the search button, it directs me to the landing page displaying the primary information of my car: make, model, and year.
+- WHEN I click "clear input"
+- THEN the input box is cleared of text
 - WHEN I view the landing page
-- THEN I can see a map that shows me local mechanics and my search history
-- WHEN I inspect local storage
+- THEN I am presented with my current location marked with a red pin labelled "A"
+- THEN I see a green circle with a 5km radius
+- THEN I see a orange circle with a 10km radius
+- THEN I see my nearest car repair marked with a red pin
+- WHEN I click on the car repair pin marks
+- THEN I am presented with a window that displays the name of the business, the address, the phone number, and the customer rating
+- WHEN I inspect the landing page further
 - THEN I see my search history has been saved
+- WHEN I inspect local storage
+- THEN I see my search history has been saved locally
 - WHEN I click a button to clear history
 - THEN my local storage is cleared
 
@@ -41,8 +50,9 @@ RepairFind uses a number of technologies, including:
 - CSS
 - Skeleton CSS boilerplate
 - Jquery
-- Google Maps API
-- VIN API
+- Google Maps JavaScript API
+- Places Library (for Maps JavaScript API)
+- VIN Free Check, Instant VIN decorder API
 
 More information and links to external technologies can be found in our "Credits" section. 
 
@@ -68,6 +78,14 @@ RepairFind was developed by Team 7, as a joint effort. Antonio Liu and Anna Art 
 ## Credits
 
 Skeleton: A dead simple, responsive boilerplate. http://getskeleton.com/
+
+Maps JavaScript API: https://developers.google.com/maps/documentation/javascript
+
+Places Library for Maps JavaScript API: https://developers.google.com/maps/documentation/javascript/places
+
+VIN Free Check, Instant VIN decorder API: https://www.vinfreecheck.com/vin-decoding-api
+
+Rapid API: used to source VIN decoder API, https://rapidapi.com/vinfreecheck/api/vin-decoder-1/details
 
 GIO Insurance, How do I find my vin? https://www.gio.com.au/faqs/car-insurance/how-do-i-find-my-vin.html
 

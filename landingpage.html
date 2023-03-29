@@ -15,37 +15,42 @@
 <body>
     <!-- Header -->
     <div class="header align-center justify-center w-100%">
-        <h1>Your car information are listed below.</h1>
+        <h1 class="fontbold">Your car information are listed below.</h1>
     </div>
 
     <!-- Search bar -->
-    <div class="container">
+    <div class="container fontbold">
         <div class="row">
             <div class="four columns">
-                <div class="form display-flex flex-column h-500px">
-                    <form>
+                <div class="form display-flex flex-column">
+                    <div id="vin-form">
+                        <p class="invalid-message"></p>
                         <input id="vin-input" class="form-input aligncentertext" type="text"
                             placeholder="17 characters vin">
-                        <button class="btn aligncenteritem" style="margin-top: 10px;">Search</button>
-                    </form>
-                    <!-- History section -->
+                        <button class="btn aligncenteritem" id="search-btn" >Search</button>
+                        <button class="btn aligncenteritem" id="clear-search-btn" style="margin-top: 10px;">Clear Input</button>
+                    </div>
+                    <div class="tables">
+                        <!-- History section -->
+                        <ul class="list-group">
+                        </ul>
+                    </div>
                     <button class="btn" id="clear-history">Clear history</button>
-                    <ul class="list-group">
-                    </ul>
-                    
+               
+
                 </div>
             </div>
             <div class="eight columns">
                 <div class="info">
+
                     <p class="display-flex aligncenteritem aligncentertext"> car information display </p>
+
+                    <p class="vin"></p>
+                    <p class="model"></p>
+                    <p class="make"></p>
+                    <p class="year"></p>
+
                 </div>
-<<<<<<< Updated upstream
-                <div>
-                    <p class="display-flex aligncenteritem aligncentertext">Google map placement</p>
-                </div>
-                </div>
-                </div>
-=======
             </div>
         </div>
         <div class="row">
@@ -64,13 +69,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
-    
->>>>>>> Stashed changes
 
-                <div class="footer aligncentertext">
-                    RepairFind &copy 2023
-                    Made By Anna Art, Steven Dong, Antonio Lu, Briony Sherrell
-                </div>
 </body>
 
 </html>

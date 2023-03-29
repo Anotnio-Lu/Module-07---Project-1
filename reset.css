@@ -11,8 +11,11 @@ main {
   }
 
 body, input, button{
-    margin:0;
     font-family: 'Raleway', sans-serif;
+}
+
+.fontbold{
+  font-weight: bold;
 }
 
 .header{
@@ -32,19 +35,30 @@ p{
     padding:70px;
     background-color: var(--lgrey);
     color:var(--dteal);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .form-input{
-    font-size: 30px;
-    margin: 10px 0;
+    font-size: 25px;
 }
 
 .info{
   background-color: var(--lteal);
   color: var(--dgrey);
-  padding: 70px;
+  padding: 125px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
+.map{
+  padding: 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
 
 /* Added .item */
 .item {
@@ -58,13 +72,6 @@ p{
   max-width: 85%;
 }
 
-.box {
-  display: flex;
-}
-
-#image {
-  padding-right: 30px;
-}
 
 #go-back {
   text-align: center;
@@ -84,20 +91,21 @@ p{
 .btn {
     text-align: center;
     display: inline-block;
-    padding: 5px 10px;
-    margin-top: 10px;
     text-decoration: none;
-    font-size: 25px;
-    border-radius: 3px;
+    font-size: 20px;
+    border-radius: 5px;
     border: 1px solid transparent;
     outline: none;
     color: var(--lgrey);
     background-color: var(--teal);
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   }
 
   .btn:hover {
     background-color: var(--dteal);
+  }
+
+  img{
+    width:80%
   }
 
   .footer{
