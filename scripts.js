@@ -158,7 +158,7 @@ navigator.geolocation.getCurrentPosition(position => {
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Current Location</h1>' +
+    '<h5 id="firstHeading" class="firstHeading">Current Location</h5>' +
     "</div>"
   const infowindow = new google.maps.InfoWindow({
     content: contentString,

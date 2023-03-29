@@ -210,6 +210,11 @@ p{
   .align-content-center {
     align-content: center;
   }
+
+  .smlp{
+    font-size: 30px;
+    font-weight: bolder;
+  }
   
   .content          { @include row(); }
   .content-form     { @include column('third'); }
