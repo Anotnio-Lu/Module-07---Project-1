@@ -289,6 +289,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
+  text-decoration: none;
   font-size: 30px;
   list-style: circle inside; }
 ol {
@@ -303,6 +304,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
+  text-decoration: none;
   font-size: 25px;
   margin-bottom: 1rem; }
 
