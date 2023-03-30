@@ -3,6 +3,8 @@
 
 RepairFind is a live web application designed to help motorists streamline the process to find mechanical assistance.
 
+Visit the live application here: https://anotnio-lu.github.io/RepairFind/
+
 ## Table of Contents
 - [User Story](#user-story)
 - [Acceptance criteria](#acceptance-criteria)

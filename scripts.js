@@ -100,7 +100,7 @@ const options = {
 	method: 'GET',
 	headers: {
   //Rapid API Key below - please only use this twice each to test, remove the forward slashes (//) to make the line live to test.
-	//'X-RapidAPI-Key': 'd6a90ad397msh3391469c5c359a2p13e7c1jsn9ade20db1714',
+	  'X-RapidAPI-Key': 'd6a90ad397msh3391469c5c359a2p13e7c1jsn9ade20db1714',
 		'X-RapidAPI-Host': 'vindecoder.p.rapidapi.com'
 	}
 };
